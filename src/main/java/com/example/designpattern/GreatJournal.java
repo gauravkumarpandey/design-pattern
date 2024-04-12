@@ -13,6 +13,7 @@ import java.util.List;
  * 
  * @see com.example.designpattern.Journal
  */
+@ConfirPattern(patternName =  "Single Responsibility Pattern")
 public class GreatJournal {
     private final List<String> entries = new ArrayList<>();
     private static int count = 0;
